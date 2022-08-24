@@ -2,8 +2,8 @@
 
 header {
   height: 100vh;
-  padding-top: 7rem;
-  overflow: hidden;
+  /* padding-top: 7rem; */
+  /* overflow: hidden; */
 }
 
 .header__container {
@@ -41,19 +41,18 @@ header {
 }
 
 /* =============== ME ============ */
-
 .me {
   /* background: var(--color-primary); */
-  width: 22rem;
-  height: 30rem;
+  width: 15rem;
+  height: 25rem;
   position: absolute;
-  left: calc(50% - 11rem);
+  left: calc(50% - 7rem);
   /* left: 50%;
   transform: translateX(-50%); */
-  margin-top: 4rem;
+  margin-top: 2rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* =============== ME ============ */
@@ -70,15 +69,12 @@ header {
 /* =============== MEDIA QUERIES ============ */
 
 @media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
 }
 
 @media screen and (max-width: 600px) {
-  header {
+  /* header {
     height: 100vh;
-  }
+  }  */
   .header__socials,
   .scroll__down {
     display: none;

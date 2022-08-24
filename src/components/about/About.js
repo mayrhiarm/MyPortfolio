@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./About.css";
-import img from "../../assets/pexels-cottonbro-4904563.jpg";
+import img from "../../assets/standing.jpeg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -25,12 +25,12 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+Years Working Experience</small>
+              <small>1+ Years Working Experience</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>300+ Clients Worldwide</small>
+              <small>30+ Clients Worldwide</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -38,11 +38,17 @@ const About = () => {
               <small>20+ Projects Completed</small>
             </article>
           </div>
+
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
-            omnis voluptas corporis autem quidem hic, ipsa eveniet, quod
-            excepturi vel voluptatem quo soluta totam assumenda rem eum aperiam
-            doloremque ullam.
+            My name is Mariam Sanni, a passionate fullstack web developer. I
+            have basic knowledge and understanding of the fundamentals of
+            various programming languages (HTML, CSS, JavaScript, React
+            framework, Python, Django) which can be used to achiev beautiful and
+            functional webpages/websites. I am also a graduate of Psychology
+            from the university of Lagos, Nigeria. A well organized,
+            enthusiastic individual, skilled at keeping good interpersonal
+            relationship with people as well as ability to work effectively with
+            little or no supervision.
           </p>
 
           <a href="#contact" className="btn btn-primary">

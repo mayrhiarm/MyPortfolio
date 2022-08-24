@@ -30,22 +30,31 @@ const Contact = () => {
           <article className="contact__option">
             <HiOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>dummy@gmail.com</h5>
-            <a href="mailto:dummy@gmail.com"></a>
+            <h5>mariamsanni93@gmail.com</h5>
+            <a href="mailto:mariamsanni93@gmail.com" target="_blank">
+              Send a message
+            </a>
             <form action=""></form>
           </article>
           <article className="contact__option">
             <HiOutlineMail className="contact__option-icon" />
             <h4>Twitter</h4>
-            <h5>@Mariam</h5>
-            <a href="https://twitter.com/mariam"></a>
+            <h5>@mayrhiarm</h5>
+            <a href="https://twitter.com/mayrhiarm" target="_blank">
+              Send a message
+            </a>
             <form action=""></form>
           </article>
           <article className="contact__option">
             <HiOutlineMail className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <h5>Chat With Me</h5>
-            <a href="https://api.whatsapp.com/send?phone=08182921823"></a>
+            <a
+              href="https://api.whatsapp.com/send?phone=08083864165"
+              target="_blank"
+            >
+              Send a message
+            </a>
             <form action=""></form>
           </article>
         </div>

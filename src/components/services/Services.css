@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 } */
-
+/* 
 .service {
   background: var(--color-bg-variant);
   border-radius: 0 0 2rem 2rem;
@@ -65,4 +65,4 @@
 }
 
 @media screen and (max-width: 600px) {
-}
+} */

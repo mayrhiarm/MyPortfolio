@@ -25,13 +25,17 @@
 }
 
 .portfolio__item h3 {
-  margin: 3.2rem 0 2rem;
+  margin: 1.2rem 0 2rem;
+  text-align: center;
 }
 
 .portfolio__item-cta {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+.portfolio__item-cta a {
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {

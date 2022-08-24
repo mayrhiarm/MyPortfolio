@@ -22,9 +22,9 @@ const Footer = () => {
         <li>
           <a href="#experience">Experience</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#services">Services</a>
-        </li>
+        </li> */}
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
@@ -33,13 +33,13 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook">
+        <a href="https://facebook.com/mariam.sanni2">
           <FaFacebookF />
         </a>
-        <a href="https://Instagram.com">
+        <a href="https://www.instagram.com/mayrhiarm_sawnee/">
           <BsInstagram />
         </a>
-        <a href="https://Twitter.com">
+        <a href="https://twitter.com/mayrhiarm?t=_mtn2YL9EV6_B_dhWGeing&s=08">
           <BsTwitter />
         </a>
       </div>
